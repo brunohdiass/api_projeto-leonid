@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Músicas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/LOGO.png" alt="Logo Senai">
+    </header>
+
+    <main>
+        <!-- Formulário de Cadastro de Música -->
+        <form action="#" method="POST">
+            <h2>Cadastro de Música</h2>
+            <label for="nome">Nome da Música:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="link">Link do Arquivo de Áudio:</label>
+            <input type="text" id="link" name="link" placeholder="Digite o link do arquivo de áudio" required>
+
+            <label for="duracao">Duração:</label>
+            <input type="text" id="duracao" name="duracao" placeholder="Digite a duração da música " required>
+
+            <label for="data_lancamento">Data de Lançamento:</label>
+            <input type="text" id="data_lancamento" name="data_lancamento" placeholder="Digite a data de lançamento " required>
+
+            <label for="foto_capa">URL da Capa da Música:</label>
+            <input type="text" id="foto_capa" name="foto_capa" placeholder="Digite o link da capa da música" required>
+
+            <label for="letra">Letra da Música:</label>
+            <textarea id="letra" name="letra" placeholder="Digite a letra da música" required></textarea>
+
+            <button type="submit">Cadastrar Música</button>
+        </form>
+    </main>
+</body>
+</html>
